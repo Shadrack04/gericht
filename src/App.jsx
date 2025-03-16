@@ -1,11 +1,12 @@
 import { useState } from "react";
 
 import "./App.css";
+import Header from "./components/Header";
 
 function App() {
   return (
     <div>
-      <h1 className=" text-red-600">hello</h1>
+      <Header />
     </div>
   );
 }
