@@ -4,6 +4,12 @@ html {
   font-family: "Cormorant Upright", serif;
 }
 
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .logo {
   font-weight: 700;
   font-size: 44px;
@@ -33,5 +39,6 @@ html {
   text-transform: capitalize;
 }
 
-.book-table {
+.dining {
+  line-height: 1.2;
 }

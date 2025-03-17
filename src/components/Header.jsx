@@ -4,7 +4,7 @@ import NavLinks from "./NavLinks";
 
 function Header() {
   return (
-    <header className=" flex items-center justify-between py-[32px] px-[120px] bg-black">
+    <header className=" flex items-center justify-between px-6 py-4 bg-black">
       <Logo />
       <NavLinks />
     </header>
