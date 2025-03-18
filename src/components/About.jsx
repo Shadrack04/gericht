@@ -6,7 +6,7 @@ import AboutCard from "./AboutCard";
 
 function About() {
   return (
-    <article className=" relative flex items-center justify-between gap-12 md:h-[30rem]">
+    <article className=" bg-[#040404] relative flex items-center justify-center gap-16 md:h-[30rem]">
       <AboutCard
         title="About Us"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
