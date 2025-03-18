@@ -6,7 +6,7 @@ function NavLinks({ openNav, setOpenNav }) {
     <nav
       className={`${
         openNav ? "" : "-translate-y-[100%]"
-      } fixed inset-0  transform md:translate-0 transition-transform duration-600 md:static bg-black md:bg-transparent text-white flex flex-col items-center pt-30 md:pt-0 md:flex-row md:items-center md:justify-between md:w-4/6`}
+      } fixed inset-0  transform md:translate-0 transition-transform duration-600 md:static bg-black md:bg-transparent text-white flex flex-col items-center pt-30 md:pt-0 md:flex-row md:items-center md:justify-between md:w-4/6 z-30`}
     >
       <ul className=" flex flex-col md:flex-row items-center gap-4">
         <li className="nav-list text-2xl md:text-[1rem] font-medium">
