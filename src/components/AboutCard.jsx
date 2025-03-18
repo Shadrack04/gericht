@@ -1,0 +1,17 @@
+import React from "react";
+import Button from "./Button";
+
+function AboutCard({ title, description, align }) {
+  const style = { textAlign: align };
+  return (
+    <div style={style} className={` md:w-[32rem] h-[18rem] z-30`}>
+      <h2 className="text-[#DCCA87] md:text-[4rem] font-bold">{title}</h2>
+      <p className=" text-white md:text-[1rem] font-medium">{description}</p>
+      <div>
+        <Button>Know More</Button>
+      </div>
+    </div>
+  );
+}
+
+export default AboutCard;
