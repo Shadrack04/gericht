@@ -1,7 +1,6 @@
 import React from "react";
 
 function NavLinks({ openNav, setOpenNav }) {
-  console.log(openNav);
   return (
     <nav
       className={`${

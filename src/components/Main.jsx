@@ -2,11 +2,11 @@ import React from "react";
 import Hero from "./Hero";
 import About from "./About";
 
-function Main() {
+function Main({ mobileScreen }) {
   return (
     <main className=" px-6 bg-black min-h-screen w-full">
       <Hero />
-      <About />
+      <About mobileScreen={mobileScreen} />
     </main>
   );
 }
