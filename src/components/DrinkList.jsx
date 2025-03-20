@@ -2,7 +2,7 @@ import React from "react";
 
 function DrinkList({ title, drinks }) {
   return (
-    <div>
+    <div className=" backdrop-blur-sm z-30">
       <h3 className=" text-white text-[2.8rem] font-medium text-center">
         {title}
       </h3>
