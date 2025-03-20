@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./Hero";
 import About from "./About";
 import Special from "./Special";
+import Tribute from "./Tribute";
 
 function Main({ mobileScreen }) {
   return (
@@ -9,6 +10,7 @@ function Main({ mobileScreen }) {
       <Hero />
       <About mobileScreen={mobileScreen} />
       <Special />
+      <Tribute />
     </main>
   );
 }

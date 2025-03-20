@@ -41,3 +41,7 @@ p {
 .sub-name {
   font-family: "Open Sans";
 }
+
+.about {
+  background-image: url(../public/images/back.png);
+}
