@@ -4,7 +4,7 @@ import quot from "/images/quot.png";
 
 function Tribute() {
   return (
-    <div className="tribute flex items-center justify-center gap-10 w-full h-[50rem]">
+    <div className="tribute flex items-center justify-center gap-10 w-full h-[40rem]">
       <div className=" flex items-center justify-center z-10 relative w-[21rem] h-[29rem] bg-black">
         <img
           src={chef}
