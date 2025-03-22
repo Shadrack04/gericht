@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #dcca87;
+}
+
 html {
   font-family: "Cormorant Upright", serif;
 }

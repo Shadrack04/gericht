@@ -12,12 +12,12 @@ function Header() {
       <NavLinks openNav={openNav} setOpenNav={setOpenNav} />
       {openNav ? (
         <IoCloseSharp
-          onClick={() => setOpenNav((O) => !O)}
+          onClick={() => setOpenNav((openNav) => !openNav)}
           className=" text-white md:hidden size-8 z-50"
         />
       ) : (
         <IoMenu
-          onClick={() => setOpenNav((O) => !O)}
+          onClick={() => setOpenNav((openNav) => !openNav)}
           className=" text-white md:hidden size-8 z-50"
         />
       )}
