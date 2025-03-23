@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import About from "./About";
 import Special from "./Special";
 import Tribute from "./Tribute";
+import VideoCard from "./VideoCard";
 
 function Main({ mobileScreen }) {
   return (
@@ -11,6 +12,7 @@ function Main({ mobileScreen }) {
       <About mobileScreen={mobileScreen} />
       <Special />
       <Tribute />
+      <VideoCard />
     </main>
   );
 }
