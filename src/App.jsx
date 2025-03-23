@@ -19,7 +19,7 @@ function App() {
     return () => window.removeEventListener("resize", handleResize);
   }, [mobileScreen]);
   return (
-    <div>
+    <div className="">
       <Header />
       <Main mobileScreen={mobileScreen} />
     </div>

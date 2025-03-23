@@ -6,7 +6,7 @@ function Logo() {
     // <h1 className="logo font-bold text-3xl md:text-[2.7rem] uppercase text-white  z-50">
     //   GERICHT Logo
     // </h1>
-    <img src={logo} alt="logo" />
+    <img src={logo} alt="logo" className="w-32 h-14" />
   );
 }
 

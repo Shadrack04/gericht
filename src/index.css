@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
+<<<<<<< HEAD
 @theme {
   --color-primary: #dcca87;
 }
+=======
+@import url("https://fonts.cdnfonts.com/css/bestermind");
+>>>>>>> abaf5185e3aa8a7e767a8dfb121be1562b27bcd0
 
 html {
   font-family: "Cormorant Upright", serif;
@@ -44,4 +48,17 @@ p {
 }
 .sub-name {
   font-family: "Open Sans";
+}
+
+.about,
+.tribute {
+  background-image: url(../public/images/back.png);
+}
+
+.chef-p {
+  font-family: "Open Sans";
+}
+
+.signature {
+  font-family: "Bestermind", sans-serif;
 }

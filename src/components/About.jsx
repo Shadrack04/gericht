@@ -6,7 +6,7 @@ import AboutCard from "./AboutCard";
 
 function About({}) {
   return (
-    <article className=" bg-[#040404] relative flex flex-col md:flex-row items-center justify-center md:gap-16 h-[30rem]">
+    <article className="about relative flex flex-col md:flex-row items-center justify-center md:gap-16 h-[40rem]">
       <AboutCard
         // mobileScreen={mobileScreen}
         containerClassName="md:text-end"
