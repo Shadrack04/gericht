@@ -7,7 +7,7 @@ import NavLinks from "./NavLinks";
 function Header() {
   const [openNav, setOpenNav] = useState(false);
   return (
-    <header className=" flex items-center justify-between px-6 md:px-16 py-4 bg-black">
+    <header className=" flex items-center justify-between px-6 md:px-16 py-2 bg-black">
       <Logo />
       <NavLinks openNav={openNav} setOpenNav={setOpenNav} />
       {openNav ? (
