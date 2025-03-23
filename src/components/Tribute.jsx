@@ -4,12 +4,13 @@ import quot from "/images/quot.png";
 
 function Tribute() {
   return (
-    <div className="tribute flex items-center justify-center gap-10 w-full h-[40rem]">
+    <section className=" relative tribute flex items-center justify-center gap-10 w-full h-[40rem]">
+      <div className="absolute inset-0 bg-black/55"></div>
       <div className=" flex items-center justify-center z-10 relative w-[21rem] h-[29rem] bg-black">
         <img
           src={chef}
           alt="Image of a chef"
-          className=" h-[95%] w-[95%] !z-20"
+          className=" h-[95%] w-[95%] z-20"
         />
         <div className=" -z-10 absolute top-0 right-0 bg-[#DCCA87] size-[16rem]"></div>
         <div className=" -z-10 absolute bottom-0 left-0 bg-[#DCCA87] size-[16rem]"></div>
@@ -35,7 +36,7 @@ function Tribute() {
           <p className="signature text-white text-[4rem]">Kevin Luo</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
