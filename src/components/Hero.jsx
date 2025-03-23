@@ -1,13 +1,17 @@
 import React from "react";
 import heroImage from "/images/hero.png";
+import Spoon from "./Spoon";
 
 function Hero() {
   return (
-    <section className=" flex flex-col md:flex-row items-center justify-center gap-10 max-w-[61.2rem] h-[46rem] pt-8 mx-auto">
+    <section className=" flex flex-col md:flex-row items-center justify-center  gap-16 max-w-[55.2rem] h-[46rem] md:h-[36rem] mx-auto">
       <div className=" w-full md:w-[28rem] md:h-[30rem] flex flex-col justify-center gap-4">
-        <p className=" text-[1rem] md:text-[1.2rem] text-white">
-          Chase the new Flavour
-        </p>
+        <div>
+          <p className=" text-[1rem] md:text-[1.2rem] text-white">
+            Chase the new Flavour
+          </p>
+          <Spoon />
+        </div>
         <h1 className="dining text-4xl md:text-[5.6rem] text-primary font-bold">
           The key to Fine dining
         </h1>
@@ -22,7 +26,7 @@ function Hero() {
           </button>
         </div>
       </div>
-      <div className="relative w-full md:w-[41rem] h-full">
+      <div className="relative w-full md:w-[31rem] h-full md:h-[30rem]">
         <img src={heroImage} alt="Hero image" className=" absolute inset-0" />
       </div>
     </section>
