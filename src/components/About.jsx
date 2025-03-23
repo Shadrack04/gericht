@@ -4,9 +4,10 @@ import knife from "/images/knife.png";
 
 import AboutCard from "./AboutCard";
 
-function About({}) {
+function About() {
   return (
     <article className="about relative flex flex-col md:flex-row items-center justify-center md:gap-16 h-[40rem]">
+      <div className="absolute inset-0 bg-black/55"></div>
       <AboutCard
         // mobileScreen={mobileScreen}
         containerClassName="md:text-end"
@@ -20,7 +21,7 @@ function About({}) {
         <img
           src={G}
           alt="An svg image of G"
-          className=" mx-auto left-1/2 translate-x-[-50%] absolute size-[24rem] z-0"
+          className=" mx-auto left-1/2 translate-x-[-50%] absolute size-[18rem] z-0"
         />
         <img
           src={knife}
