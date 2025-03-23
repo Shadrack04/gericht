@@ -26,13 +26,13 @@ function NavLinks({ openNav, setOpenNav }) {
       </ul>
       <div className=" flex items-center gap-4 h-full">
         <div>
-          <a className="login" href="#">
+          <a className="login text-[0.9rem]" href="#">
             Login/Registration
           </a>
         </div>
         <div className=" border-1 h-4 border-gray-500"></div>
         <div>
-          <a className="book-table" href="#">
+          <a className="book-table text-[0.9rem]" href="#">
             Book Table
           </a>
         </div>
