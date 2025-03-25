@@ -4,6 +4,7 @@ import About from "./About";
 import Special from "./Special";
 import Tribute from "./Tribute";
 import VideoCard from "./VideoCard";
+import Laurels from "./Laurels";
 
 function Main({ mobileScreen }) {
   return (
@@ -13,6 +14,7 @@ function Main({ mobileScreen }) {
       <Special />
       <Tribute />
       <VideoCard />
+      <Laurels />
     </main>
   );
 }

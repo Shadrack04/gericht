@@ -4,6 +4,7 @@ import Spoon from "./Spoon";
 import barInverted from "/images/bar-inverted.png";
 import gerictInverted from "/images/gericht-inverted.png";
 import Button from "./Button";
+import Intro from "./Intro";
 
 function Hero() {
   return (
@@ -19,12 +20,7 @@ function Hero() {
         className=" absolute top-74 left-10"
       />
       <div className=" w-full md:w-[28rem] md:h-[30rem] flex flex-col gap-2 mt-16">
-        <div>
-          <p className=" text-[1rem] md:text-[1.1rem] text-white">
-            Chase the new Flavour
-          </p>
-          <Spoon />
-        </div>
+        <Intro title="Chase the new Flavour" />
         <h1 className="dining text-4xl md:text-[5rem] text-primary font-bold">
           The key to Fine dining
         </h1>
