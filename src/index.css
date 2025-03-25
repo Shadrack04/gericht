@@ -43,7 +43,8 @@ p {
 
 .about,
 .tribute,
-.laurels {
+.laurels,
+.findus {
   background-image: url(../public/images/back.png);
 }
 

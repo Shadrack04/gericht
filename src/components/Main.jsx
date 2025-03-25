@@ -6,6 +6,7 @@ import Tribute from "./Tribute";
 import VideoCard from "./VideoCard";
 import Laurels from "./Laurels";
 import PhotoGallery from "./PhotoGallery";
+import FindUs from "./FindUs";
 
 function Main({ mobileScreen }) {
   return (
@@ -17,6 +18,7 @@ function Main({ mobileScreen }) {
       <VideoCard />
       <Laurels />
       <PhotoGallery />
+      <FindUs />
     </main>
   );
 }
