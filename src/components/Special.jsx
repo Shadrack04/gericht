@@ -2,14 +2,13 @@ import React from "react";
 import DrinkList from "./DrinkList";
 import blender from "/images/blender.png";
 import { cocktails, wineBeer } from "../data/wins";
+import Intro from "./Intro";
 
 function Special() {
   return (
     <div className=" md:w-[71rem] md:h-[48rem] my-10">
-      <div>
-        <p className=" text-[1rem] md:text-[1.2rem] text-center text-white">
-          Menu that fits you palatte
-        </p>
+      <div className=" flex flex-col items-center">
+        <Intro title="Menu that fits you palatte" />
         <h2 className="text-[#DCCA87] text-[2.4rem] md:text-[4rem] font-medium text-center">
           Today’s Special
         </h2>
