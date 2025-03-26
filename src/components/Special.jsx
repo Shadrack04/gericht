@@ -15,7 +15,7 @@ function Special() {
       </div>
       <div className=" relative flex flex-col md:flex-row justify-center gap-4 my-10">
         <DrinkList title="Wine & Beer" drinks={wineBeer} />
-        <div className="absolute top-1/2 left-1/2 -translate-1/2 md:translate-0 md:static w-[17rem] h-[31rem]">
+        <div className=" hidden md:block absolute top-1/2 left-1/2 -translate-1/2 md:translate-0 md:static w-[17rem] h-[31rem]">
           <img
             src={blender}
             alt="Image of a Blender"

@@ -13,7 +13,6 @@ function App() {
       setMobileScreen(isMobile);
     };
     handleResize();
-    console.log(mobileScreen);
     window.addEventListener("resize", handleResize);
 
     return () => window.removeEventListener("resize", handleResize);
