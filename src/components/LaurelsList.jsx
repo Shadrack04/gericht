@@ -3,7 +3,7 @@ import { laurels } from "../data/laurels";
 
 export default function LaurelsList() {
   return (
-    <ul className=" grid grid-cols-2 gap-8">
+    <ul className=" grid grid-cols-1 md:grid-cols-2 gap-8">
       {laurels.map((laurel) => (
         <Laurel key={laurel.name} laurel={laurel} />
       ))}
