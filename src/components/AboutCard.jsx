@@ -2,7 +2,6 @@ import React from "react";
 import Button from "./Button";
 
 function AboutCard({ title, description, containerClassName }) {
-  // const style = mobileScreen ? { textAlign: "center" } : { textAlign: align };
   return (
     <div
       className={` text-center my-2 md:my-0 md:w-[25rem] h-[12rem] md:h-[18rem] z-30 ${containerClassName}`}
