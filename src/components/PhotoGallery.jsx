@@ -5,8 +5,8 @@ import Photos from "./Photos";
 
 function PhotoGallery() {
   return (
-    <section className=" flex items-center justify-end gap-4 py-12">
-      <div className=" w-[24rem]">
+    <section className=" flex flex-col-reverse md:flex-row items-center justify-end gap-4 py-12">
+      <div className=" md:w-[24rem]">
         <Intro title="Instagram" />
         <p className=" text-primary text-[3rem] font-bold my-4">
           Photo Gallery
