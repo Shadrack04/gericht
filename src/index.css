@@ -44,7 +44,8 @@ p {
 .about,
 .tribute,
 .laurels,
-.findus {
+.findus,
+.footer {
   background-image: url(../public/images/back.png);
 }
 
