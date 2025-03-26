@@ -12,12 +12,12 @@ function Hero() {
       <img
         src={gerictInverted}
         alt="Gericht text"
-        className=" absolute top-50 left-10"
+        className="hidden md:block absolute top-50 left-10"
       />
       <img
         src={barInverted}
         alt="Bar text"
-        className=" absolute top-74 left-10"
+        className="hidden md:block absolute top-74 left-10"
       />
       <div className=" w-full md:w-[28rem] md:h-[30rem] flex flex-col gap-2 mt-16">
         <Intro title="Chase the new Flavour" />
