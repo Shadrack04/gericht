@@ -6,12 +6,12 @@ import LaurelsList from "./LaurelsList";
 
 function Laurels() {
   return (
-    <section className=" relative laurels w-full h-[36rem] z-20 p-8">
+    <section className=" relative laurels w-full md:h-[36rem] z-20 p-8">
       <div className="absolute inset-0 bg-black/55 -z-10"></div>
-      <div className=" size-18">
+      <div className=" mb-8 md:mb-auto size-18">
         <img src={bite} alt="Delight in every bite" className=" size-full" />
       </div>
-      <div className=" flex items-center justify-center gap-12">
+      <div className=" flex flex-col md:flex-row items-center justify-center gap-12">
         <div>
           <Intro
             title="Awards & recognition"

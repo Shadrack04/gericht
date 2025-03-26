@@ -1,31 +1,9 @@
 import React from "react";
-
-const laurels = [
-  {
-    name: "Bib Gourmond",
-    description: "Lorem ipsum dolor sit amet, consectetur.",
-    image: "/images/num2.png",
-  },
-  {
-    name: "Rising Star",
-    description: "Lorem ipsum dolor sit amet, consectetur.",
-    image: "/images/num1.png",
-  },
-  {
-    name: "AA Hospitality ",
-    description: "Lorem ipsum dolor sit amet, consectetur.",
-    image: "/images/num5.png",
-  },
-  {
-    name: "Outstanding Chef",
-    description: "Lorem ipsum dolor sit amet, consectetur.",
-    image: "/images/num3.png",
-  },
-];
+import { laurels } from "../data/laurels";
 
 export default function LaurelsList() {
   return (
-    <ul className=" grid grid-cols-2 gap-8">
+    <ul className=" grid grid-cols-1 md:grid-cols-2 gap-8">
       {laurels.map((laurel) => (
         <Laurel key={laurel.name} laurel={laurel} />
       ))}
