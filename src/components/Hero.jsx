@@ -8,7 +8,7 @@ import Intro from "./Intro";
 
 function Hero() {
   return (
-    <section className="relative flex flex-col md:flex-row items-center justify-center  gap-16 w-full h-[46rem] md:h-[36rem] mx-auto">
+    <section className="relative flex flex-col md:flex-row items-center justify-center py-6 gap-16 w-full h-[44rem] md:h-[36rem] mx-auto">
       <img
         src={gerictInverted}
         alt="Gericht text"
@@ -19,7 +19,7 @@ function Hero() {
         alt="Bar text"
         className="hidden md:block absolute top-74 left-10"
       />
-      <div className=" w-full md:w-[28rem] md:h-[30rem] flex flex-col gap-2 mt-16">
+      <div className=" w-full md:w-[28rem] md:h-[30rem] flex flex-col gap-2 md:mt-16">
         <Intro title="Chase the new Flavour" />
         <h1 className="dining text-4xl md:text-[5rem] text-primary font-bold">
           The key to Fine dining
