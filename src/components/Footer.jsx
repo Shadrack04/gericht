@@ -24,9 +24,7 @@ function Footer() {
             placeholder="Email Address"
             className=" border-2 border-[#DCCA8733] w-[10rem] md:w-[15rem] placeholder:text-gray placeholder:text-sm px-4 py-1"
           />
-          <Button paddingY="7px" paddingX="24px">
-            Subscribe
-          </Button>
+          <Button>Subscribe</Button>
         </div>
       </div>
 
@@ -41,7 +39,7 @@ function Footer() {
         </div>
         <div className=" text-center">
           <img src={footerLogo} alt="Logo" className="w-40 h-12 my-6 mx-auto" />
-          <p className=" text-white md:w-[22rem]">
+          <p className=" text-white w-[16rem] md:w-[22rem]">
             "The best way to find yourself is to lose yourself in the service of
             others.”
           </p>
