@@ -8,9 +8,9 @@ import footerLogo from "/images/footerlogo.png";
 
 function Footer() {
   return (
-    <footer className="footer relative flex flex-col items-center justify-between gap-14 h-[46rem] w-full pb-12 z-20">
+    <footer className="footer relative flex flex-col items-center justify-between gap-14 min-h-[42rem] w-full pb-4 z-20">
       <div className="absolute inset-0 bg-black/55 -z-10"></div>
-      <div className=" flex flex-col items-center justify-center border-1 border-t-0 border-[#DCCA8733] w-[50%] bg-[#0C0C0C] shadow-4xl py-6 mx-auto">
+      <div className=" flex flex-col items-center justify-center border-1 border-t-0 border-[#DCCA8733] w-full md:w-[50%] bg-[#0C0C0C] shadow-4xl py-6 mx-auto">
         <Intro title="Newsletter" />
         <p className=" text-primary text-[1.6rem] font-medium">
           Subscribe to Our Newsletter
@@ -22,7 +22,7 @@ function Footer() {
           <input
             type="text"
             placeholder="Email Address"
-            className=" border-2 border-[#DCCA8733] w-[15rem] placeholder:text-gray placeholder:text-sm px-4 py-1"
+            className=" border-2 border-[#DCCA8733] w-[10rem] md:w-[15rem] placeholder:text-gray placeholder:text-sm px-4 py-1"
           />
           <Button paddingY="7px" paddingX="24px">
             Subscribe
@@ -30,7 +30,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className=" flex items-center mx-auto gap-20">
+      <div className=" grid grid-cols-1 md:grid-cols-3 items-center justify-center mx-auto gap-4 md:gap-4">
         <div className=" text-center">
           <h3 className=" text-white text-2xl my-4">Contact Us</h3>
           <p className=" text-gray">9 W 53rd St, New York, NY 10019, USA</p>
@@ -41,21 +41,23 @@ function Footer() {
         </div>
         <div className=" text-center">
           <img src={footerLogo} alt="Logo" className="w-40 h-12 my-6 mx-auto" />
-          <p className=" text-white w-[22rem]">
+          <p className=" text-white md:w-[22rem]">
             "The best way to find yourself is to lose yourself in the service of
             others.”
           </p>
           <div className=" flex items-center justify-center my-4">
             <Intro />
           </div>
-          <div className=" flex items-center justify-center gap-4 my-4">
-            <FaFacebookF className=" text-white" />
-            <FiTwitter className=" text-white" />
-            <FaInstagram className=" text-white" />
+          <div className=" flex items-center justify-center gap-6 my-4">
+            <FaFacebookF className=" text-white size-8" />
+            <FiTwitter className=" text-white size-8" />
+            <FaInstagram className=" text-white size-8" />
           </div>
         </div>
         <div>
-          <h3 className=" text-white text-2xl my-4">Working Hours</h3>
+          <h3 className=" text-white text-2xl text-center my-4">
+            Working Hours
+          </h3>
           <p className=" text-gray text-center">
             Monday-Friday: <br />
             08:00 am -12:00 am
@@ -66,8 +68,10 @@ function Footer() {
           </p>
         </div>
       </div>
-      <div className=" my-8">
-        <p className=" text-gray">2021 Gerícht. All Rights reserved.</p>
+      <div className=" my-2">
+        <p className=" text-gray text-center">
+          2021 Gerícht. All Rights reserved.
+        </p>
       </div>
     </footer>
   );
