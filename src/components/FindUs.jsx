@@ -7,8 +7,8 @@ function FindUs() {
   return (
     <section className="findus relative flex flex-col-reverse md:flex-row items-center justify-center gap-10 py-10 z-20">
       <div className="absolute inset-0 bg-black/55 -z-10"></div>
-      <div>
-        <div className=" my-4">
+      <div className=" text-center md:text-start">
+        <div className=" my-4 flex flex-col items-center md:items-start">
           <Intro title="Contact" />
           <p className=" text-primary text-[3rem] pb-10">Find Us</p>
         </div>
