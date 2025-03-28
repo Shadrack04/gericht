@@ -4,22 +4,24 @@ import knife from "/images/knife.png";
 
 import AboutCard from "./AboutCard";
 
-function About({ mobileScreen }) {
+function About() {
   return (
-    <article className="about relative flex flex-col md:flex-row items-center justify-center md:gap-16 h-[40rem]">
+    <article className="about z-20 relative flex flex-col md:flex-row items-center justify-center md:gap-16 h-[40rem]">
+      <div className="absolute inset-0 bg-black/55 -z-10"></div>
       <AboutCard
-        mobileScreen={mobileScreen}
+        // mobileScreen={mobileScreen}
+        containerClassName="md:text-end"
         title="About Us"
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pharetra
         adipiscing ultrices vulputate posuere tristique. In sed odio nec aliquet
         eu proin mauris et."
-        align="end"
+        // align="end"
       />
       <div className=" flex items-center justify-center">
         <img
           src={G}
           alt="An svg image of G"
-          className=" mx-auto left-1/2 translate-x-[-50%] absolute size-[24rem] z-0"
+          className=" mx-auto left-1/2 translate-x-[-50%] absolute size-[14rem] md:size-[18rem] z-0"
         />
         <img
           src={knife}
@@ -28,10 +30,11 @@ function About({ mobileScreen }) {
         />
       </div>
       <AboutCard
-        mobileScreen={mobileScreen}
+        // mobileScreen={mobileScreen}
+        containerClassName="md:text-start"
         title="Our History"
         description="Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat. Risus placerat morbi volutpat habitasse interdum mi aliquam In sed odio nec aliquet."
-        align="start"
+        // align="start"
       />
     </article>
   );

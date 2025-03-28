@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #dcca87;
+  --color-gray: #aaaaaa;
+  --color-button-text: #0c0b08;
+
+  --font-openSan: "Open Sans";
+}
 @import url("https://fonts.cdnfonts.com/css/bestermind");
 
 html {
@@ -12,15 +19,6 @@ p {
   padding: 0;
 }
 
-/* .logo {
-  font-weight: 700;
-  font-size: 44px;
-  font-style: normal;
-  line-height: 130%;
-  letter-spacing: 1.76px;
-  text-transform: uppercase;
-} */
-
 .nav-list {
   font-family: "Open Sans";
   letter-spacing: 0.64px;
@@ -29,7 +27,6 @@ p {
 .login,
 .book-table {
   font-family: "Open Sans";
-  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 175%; /* 28px */
@@ -45,7 +42,10 @@ p {
 }
 
 .about,
-.tribute {
+.tribute,
+.laurels,
+.findus,
+.footer {
   background-image: url(../public/images/back.png);
 }
 

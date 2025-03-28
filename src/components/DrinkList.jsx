@@ -7,7 +7,7 @@ function DrinkList({ title, drinks }) {
         {title}
       </h3>
       {drinks.map((drink) => (
-        <div className=" mb-8 mt-4">
+        <div key={drink.name} className=" mb-8 mt-4">
           <div className=" flex items-center justify-between gap-6">
             <p className=" flex-1/2 text-[#DCCA87] text-[1rem] font-bold">
               {drink.name}
