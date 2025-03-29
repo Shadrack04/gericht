@@ -13,6 +13,7 @@ function Hero() {
         src={gerictInverted}
         alt="Gericht text"
         className="hidden md:block absolute top-50 left-10"
+        loading="lazy"
       />
       <img
         src={barInverted}

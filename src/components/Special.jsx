@@ -6,7 +6,7 @@ import Intro from "./Intro";
 
 function Special() {
   return (
-    <div className=" md:w-[71rem] md:h-[48rem] my-10">
+    <div className=" md:w-[71rem] md:h-[48rem] my-10 mx-auto">
       <div className=" flex flex-col items-center">
         <Intro title="Menu that fits you palatte" />
         <h2 className="text-[#DCCA87] text-[2.4rem] md:text-[4rem] font-medium text-center">

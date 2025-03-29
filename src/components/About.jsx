@@ -22,6 +22,7 @@ function About() {
           src={G}
           alt="An svg image of G"
           className=" mx-auto left-1/2 translate-x-[-50%] absolute size-[14rem] md:size-[18rem] z-0"
+          loading="lazy"
         />
         <img
           src={knife}
