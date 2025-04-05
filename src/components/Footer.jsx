@@ -4,7 +4,7 @@ import { FiTwitter } from "react-icons/fi";
 import { FaInstagram } from "react-icons/fa";
 import Intro from "./Intro";
 import Button from "./Button";
-import footerLogo from "/images/footerlogo.png";
+import footerLogo from "/images/footerLogo.svg";
 
 function Footer() {
   return (
