@@ -14,7 +14,7 @@ function Photos() {
           <img
             src={image}
             alt="Slider image"
-            className=" h-[8rem] w-[12rem] md:h-[14rem] md:w-[11rem]"
+            className=" h-[8rem] w-[12rem] md:min-h-[18rem] md:max-w-[16rem] border-0.5 border-primary"
           />
         </div>
       ))}

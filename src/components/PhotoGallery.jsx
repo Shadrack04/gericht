@@ -5,13 +5,15 @@ import Photos from "./Photos";
 
 function PhotoGallery() {
   return (
-    <section className=" flex flex-col-reverse md:flex-row items-center justify-end gap-4 py-12">
-      <div className=" md:w-[24rem]">
-        <Intro title="Instagram" />
-        <p className=" text-primary text-[3rem] font-bold my-4">
-          Photo Gallery
-        </p>
-        <p className=" text-gray text-[1rem] ">
+    <section className=" flex flex-col-reverse md:flex-row items-center justify-end gap-0 py-24">
+      <div className=" md:w-[24rem] ">
+        <div className=" mb-4">
+          <Intro title="Instagram" />
+          <p className=" text-primary text-[2.6rem] font-bold tracking-wide">
+            Photo Gallery
+          </p>
+        </div>
+        <p className=" text-gray text-[.8rem] md:w-[20rem] tracking-wide ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat
           mattis ipsum turpis elit elit scelerisque egestas mu.
         </p>
