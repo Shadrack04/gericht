@@ -24,7 +24,7 @@ function NavLinks({ openNav, setOpenNav }) {
           <a href="#">Landing</a>
         </li>
       </ul>
-      <div className=" flex items-center gap-4 h-full">
+      <div className=" flex items-center gap-8 h-full">
         <div>
           <a className="login text-[0.9rem]" href="#">
             Login/Registration
