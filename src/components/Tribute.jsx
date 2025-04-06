@@ -5,13 +5,13 @@ import quot from "/images/quot.png";
 
 function Tribute() {
   return (
-    <section className=" z-20 relative tribute flex flex-col md:flex-row items-center justify-center gap-10 w-full h-[58rem] md:h-[40rem] my-12 md:my-0">
+    <section className=" z-20 relative tribute flex flex-col md:flex-row items-center justify-center gap-10 w-full h-[58rem] md:h-[40rem] my-12 md:py-32">
       <div className="absolute inset-0 bg-black/55 -z-10"></div>
-      <div className=" flex items-center justify-center z-10 relative w-[20rem] h-[26rem] md:h-[28rem]">
+      <div className=" w-[28rem] md:w-[26rem] min-h-[26rem] ">
         <img
           src={chef}
           alt="Image of a chef"
-          className=" h-full w-full z-20"
+          className=" h-full w-full"
           loading="lazy"
         />
       </div>
