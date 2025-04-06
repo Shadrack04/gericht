@@ -10,7 +10,7 @@ import FindUs from "./FindUs";
 
 function Main({ mobileScreen }) {
   return (
-    <main className=" px-6 bg-black min-h-screen w-full">
+    <main className=" bg-black min-h-screen w-full">
       <Hero />
       <About mobileScreen={mobileScreen} />
       <Special />

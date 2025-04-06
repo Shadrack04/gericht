@@ -4,7 +4,7 @@ import play from "/images/play.png";
 
 function VideoCard() {
   return (
-    <div className=" relative h-[40vh] md:h-[70vh] w-full">
+    <div className=" relative h-[40vh] md:h-[80vh] w-full">
       <div className="absolute inset-0 bg-black/50"></div>
       <img
         src={play}
