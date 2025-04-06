@@ -8,7 +8,7 @@ import Intro from "./Intro";
 
 function Hero() {
   return (
-    <section className="relative flex flex-col md:flex-row items-center justify-center py-6  w-full h-[44rem] md:h-[36rem] mx-auto">
+    <section className="relative flex flex-col md:flex-row items-center justify-center py-6 md:mb-18  w-full h-[44rem] md:h-[36rem] mx-auto">
       <img
         src={gerictInverted}
         alt="Gericht text"
@@ -34,8 +34,13 @@ function Hero() {
           <Button>Explore Menu</Button>
         </div>
       </div>
-      <div className="relative w-full md:w-[28rem] h-full md:h-[32rem]">
+      <div className="relative w-full md:w-[28rem] h-full md:h-[31rem]">
         <img src={heroImage} alt="Hero image" className=" absolute inset-0" />
+      </div>
+      <div className=" absolute bottom-0 mt-8">
+        <p className=" text-white">
+          01 <span className="">-</span> 02 03 04
+        </p>
       </div>
     </section>
   );
