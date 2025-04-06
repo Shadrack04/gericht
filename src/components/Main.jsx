@@ -7,7 +7,6 @@ import VideoCard from "./VideoCard";
 import Laurels from "./Laurels";
 import PhotoGallery from "./PhotoGallery";
 import FindUs from "./FindUs";
-import Footer from "./Footer";
 
 function Main({ mobileScreen }) {
   return (
@@ -20,7 +19,6 @@ function Main({ mobileScreen }) {
       <Laurels />
       <PhotoGallery />
       <FindUs />
-      <Footer />
     </main>
   );
 }
