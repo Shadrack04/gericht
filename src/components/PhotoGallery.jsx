@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Intro from "./Intro";
 import Button from "./Button";
 import Photos from "./Photos";
 
 function PhotoGallery() {
+  const [isHover, setIsHover] = useState(false);
   return (
     <section className=" flex flex-col-reverse md:flex-row items-center justify-end gap-0 py-24">
       <div className=" md:w-[24rem] ">
@@ -21,7 +22,7 @@ function PhotoGallery() {
           <Button>View More</Button>
         </div>
       </div>
-      <Photos />
+      <Photos isHover={isHover} setIsHover={setIsHover} />
     </section>
   );
 }
