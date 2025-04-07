@@ -1,6 +1,5 @@
 import React from "react";
 import heroImage from "/images/hero.png";
-import Spoon from "./Spoon";
 import barInverted from "/images/bar-inverted.png";
 import gerictInverted from "/images/gericht-inverted.png";
 import Button from "./Button";
@@ -8,7 +7,7 @@ import Intro from "./Intro";
 
 function Hero() {
   return (
-    <section className="relative flex flex-col md:flex-row items-center justify-center py-6 md:mb-18  w-full h-[44rem] md:h-[36rem] mx-auto">
+    <section className="relative flex flex-col md:flex-row items-center justify-center gap-8 md:gap-0 py-6 px-6 md:px-auto mb-12 md:mb-18  w-full h-[44rem] md:h-[36rem] mx-auto">
       <img
         src={gerictInverted}
         alt="Gericht text"
@@ -30,7 +29,7 @@ function Hero() {
           volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
           aliquam amet tellus
         </p>
-        <div className=" flex w-full justify-center md:justify-start mt-4">
+        <div className=" flex w-full justify-start mt-4">
           <Button>Explore Menu</Button>
         </div>
       </div>
