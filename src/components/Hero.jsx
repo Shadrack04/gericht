@@ -7,7 +7,7 @@ import Intro from "./Intro";
 
 function Hero() {
   return (
-    <section className="relative flex flex-col md:flex-row items-center justify-center gap-8 md:gap-0 py-6 px-6 md:px-auto mb-12 md:mb-18  w-full h-[44rem] md:h-[36rem] mx-auto">
+    <section className="relative flex flex-col md:flex-row items-center justify-center gap-8 md:gap-0 py-6  mb-12 md:mb-18  w-full h-[44rem] md:h-[36rem] mx-auto">
       <img
         src={gerictInverted}
         alt="Gericht text"

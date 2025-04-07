@@ -12,7 +12,7 @@ function AboutCard({ title, description, containerClassName }) {
   }
   return (
     <div
-      className={` text-center md:px-2 my-2 md:my-0 md:w-[25rem] h-[12rem] md:h-[18rem] z-30 ${containerClassName}`}
+      className={` text-center md:px-2 md:w-[25rem] h-[12rem] md:h-[18rem] z-30 ${containerClassName}`}
     >
       <div className=" mb-8">
         <h2 className="text-[#DCCA87] text-[2rem] md:text-[3rem] font-bold">
@@ -20,9 +20,7 @@ function AboutCard({ title, description, containerClassName }) {
         </h2>
         <Intro align={align} />
       </div>
-      <p className=" backdrop-blur-sm text-gray md:text-[1rem]/[140%]">
-        {description}
-      </p>
+      <p className=" text-gray md:text-[1rem]/[140%]">{description}</p>
       <div className=" my-4">
         <Button>Know More</Button>
       </div>
