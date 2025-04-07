@@ -5,9 +5,9 @@ import quot from "/images/quot.png";
 
 function Tribute() {
   return (
-    <section className=" z-20 relative tribute flex flex-col md:flex-row items-center justify-center gap-18 w-full h-[58rem] md:h-[40rem] my-12 md:py-32">
+    <section className=" z-20 relative tribute flex flex-col md:flex-row items-center justify-center gap-18 w-full min-h-[58rem] md:h-[40rem] my-18 md:py-32">
       <div className="absolute inset-0 bg-black/55 -z-10"></div>
-      <div className=" w-[28rem] md:w-[26rem] min-h-[26rem] ">
+      <div className=" md:w-[26rem] min-h-[26rem] ">
         <img
           src={chef}
           alt="Image of a chef"
