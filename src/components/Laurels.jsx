@@ -21,7 +21,7 @@ function Laurels() {
           <h2 className=" text-[2.6rem] text-primary mb-8 ">Our Laurels</h2>
           <LaurelsList />
         </div>
-        <div className=" h-[28rem] w-[22rem]">
+        <div className=" md:h-[28rem] md:w-[22rem]">
           <img
             src={stakewithG}
             alt="image of a stake with a letter g"
