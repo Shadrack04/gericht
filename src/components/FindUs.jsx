@@ -5,7 +5,7 @@ import Button from "./Button";
 
 function FindUs() {
   return (
-    <section className="findus relative flex flex-col-reverse md:flex-row items-center justify-center gap-22 py-10 z-20">
+    <section className="findus relative flex flex-col-reverse md:flex-row items-center justify-center gap-22 py-20 z-20">
       <div className="absolute inset-0 bg-black/55 -z-10"></div>
       <div className=" text-center md:text-start">
         <div className=" mb-8 flex flex-col items-center md:items-start">
