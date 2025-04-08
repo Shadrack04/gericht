@@ -5,7 +5,7 @@ import Button from "./Button";
 
 function FindUs() {
   return (
-    <section className="findus relative flex flex-col-reverse md:flex-row items-center justify-center gap-22 py-20 z-20">
+    <section className="findus relative flex flex-col-reverse md:flex-row items-center justify-center md:gap-22 py-20 z-20">
       <div className="absolute inset-0 bg-black/55 -z-10"></div>
       <div className=" text-center md:text-start">
         <div className=" mb-8 flex flex-col items-center md:items-start">
@@ -30,7 +30,7 @@ function FindUs() {
           <Button>Visit Us</Button>
         </div>
       </div>
-      <div className=" w-[28rem] md:w-[28rem] min-h-[28rem]">
+      <div className=" md:w-[28rem] min-h-[28rem]">
         <img
           src={glass}
           alt="image of a wine glass"

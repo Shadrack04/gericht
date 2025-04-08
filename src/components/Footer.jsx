@@ -10,9 +10,9 @@ function Footer() {
   return (
     <footer className="footer relative flex flex-col items-center gap-14 min-h-[42rem] w-full pb-18 z-20">
       <div className="absolute inset-0 bg-black/55 -z-10"></div>
-      <div className=" flex flex-col items-center justify-center border-1 border-t-0 border-[#DCCA8733] w-full md:w-[70%] bg-[#0C0C0C] shadow-4xl py-8 mx-auto">
+      <div className=" flex flex-col items-center justify-center border-1 border-t-0 border-[#DCCA8733] w-[90%] md:w-[70%] bg-[#0C0C0C] shadow-4xl py-8 mx-auto">
         <Intro title="Newsletter" />
-        <p className=" text-primary text-[2.6rem] font-medium tracking-wide">
+        <p className=" text-primary text-[2.6rem] text-center font-medium tracking-wide">
           Subscribe To Our Newsletter
         </p>
         <p className=" text-white text-[1rem] leading-14">
