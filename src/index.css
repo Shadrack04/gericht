@@ -56,3 +56,14 @@ p {
 .signature {
   font-family: "Bestermind", sans-serif;
 }
+
+.leftAlign {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.rightAlign {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}

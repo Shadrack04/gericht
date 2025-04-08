@@ -7,11 +7,10 @@ import VideoCard from "./VideoCard";
 import Laurels from "./Laurels";
 import PhotoGallery from "./PhotoGallery";
 import FindUs from "./FindUs";
-import Footer from "./Footer";
 
 function Main({ mobileScreen }) {
   return (
-    <main className=" px-6 bg-black min-h-screen w-full">
+    <main className="px-6 md:px-auto bg-black w-full">
       <Hero />
       <About mobileScreen={mobileScreen} />
       <Special />
@@ -20,7 +19,6 @@ function Main({ mobileScreen }) {
       <Laurels />
       <PhotoGallery />
       <FindUs />
-      <Footer />
     </main>
   );
 }

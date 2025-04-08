@@ -4,7 +4,7 @@ import Spoon from "./Spoon";
 function Intro({ title, align = "" }) {
   return (
     <div className={`${align}`}>
-      <p className=" text-[1rem] md:text-[1.1rem] text-white">{title}</p>
+      <p className=" text-[1rem] md:text-[1rem] text-white">{title}</p>
       <Spoon />
     </div>
   );
