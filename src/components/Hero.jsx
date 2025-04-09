@@ -11,13 +11,13 @@ function Hero() {
       <img
         src={gerictInverted}
         alt="Gericht text"
-        className="hidden md:block absolute top-50 left-[5%]"
+        className="hidden lg:block absolute top-50 left-[5%]"
         loading="lazy"
       />
       <img
         src={barInverted}
         alt="Bar text"
-        className="hidden md:block absolute top-74 left-[5%]"
+        className="hidden lg:block absolute top-74 left-[5%]"
       />
       <div className=" w-full md:w-[24rem] md:min-h-[30rem] flex flex-col gap-2 md:mt-16">
         <Intro title="Chase the new Flavour" />
@@ -33,8 +33,8 @@ function Hero() {
           <Button>Explore Menu</Button>
         </div>
       </div>
-      <div className="relative w-full md:w-[28rem] h-full md:h-[31rem]">
-        <img src={heroImage} alt="Hero image" className=" absolute inset-0" />
+      <div className=" w-full md:w-[28rem] h-full md:h-[31rem]">
+        <img src={heroImage} alt="Hero image" className=" w-full h-full" />
       </div>
       <div className=" absolute bottom-0 mt-8">
         <p className=" text-white">
